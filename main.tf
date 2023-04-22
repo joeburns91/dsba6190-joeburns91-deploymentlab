@@ -130,7 +130,7 @@ resource "azurerm_mssql_server" "sql_db" {
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
   administrator_login          = "joe_admin"
-  administrator_login_password = "hard_coded_secret"
+  administrator_login_password = "my_h4rd_c0d3d_s3cr3t!!"
 
   tags = {
     environment = "production"
